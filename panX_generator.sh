@@ -93,7 +93,7 @@ then
 fi
 	
 cp -rf vis/* $vis_dir/$run_name
-cd $vis_dir/$run_name
-bash $vis_dir/../../add-new-pages-repo.sh $run_name wide
+cd $vis_dir
+bash add-new-pages-repo.sh $run_name wide
 
 echo "PanX analysis completed and transferred, ready for visualisation"
